@@ -6,11 +6,11 @@ public class Firstprogram {
 
 	
 	void debit(int withdraw) {
-		balance = balance - withdraw;
+		int remainingbalance  = balance - withdraw;
 	}
 	
 	void credit(int added) {
-		balance = balance + added;
+		int remainingbalance = balance + added;
 	}
 	
 	void displaybalance() {
